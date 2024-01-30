@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pyform',
-    version='0.1.0',
+    name='DjPyForms',
+    version='0.1.2',
     author='Charles GBOYOU',
     author_email='gboyoucharles22@gmail.com',
     description='A tool for automatic Django form generation',
@@ -28,7 +28,7 @@ setup(
     python_requires='>=3.7',
     entry_points={
         'console_scripts': [
-            'pyform=pyform.management.commands.createform:main',
+            'DjPyForms=DjPyForms.management.commands.createform:main',
         ],
     },
 )

@@ -1,17 +1,19 @@
-# PyForm
+# DjPyForms
 
 ## Description
-PyForm is an automatic form generation tool for Django projects. It simplifies the creation of forms based on Django class models, taking into account field types and relationships.
+DjPyForms is an automatic form generation tool for Django projects. It simplifies the creation of forms based on Django class models, taking into account field types and relationships.
 
 ## Installation
-To install PyForm, simply run the following command:
+To install DjPyForms, simply run the following command:
 
 ```
-pip install pyform
+pip install DjPyForms
 ```
 
 ## Usage
-After installation, you can use PyForm directly from the Django command line. Here are some command examples:
+After installation, you can use DjPyForms directly from the Django command line. Here are some command examples:
+
+But first you need to import DjPyForms into your Django project Settings.py file:
 
 ### Generate a Form for Public Part
 To generate a form based on a Django model for the public part:

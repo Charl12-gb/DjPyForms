@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
-from pyform.form_generator import generate_form
+from DjPyForms.form_generator import generate_form
 
 class Command(BaseCommand):
     help = 'Generates a Django form for a given model.'

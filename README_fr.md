@@ -1,17 +1,19 @@
-# PyForm
+# DjPyForms
 
 ## Description
-PyForm est un outil de génération automatique de formulaires pour les projets Django. Il facilite la création de formulaires basés sur des modèles de classe Django, en prenant en compte le type des champs et les relations.
+DjPyForms est un outil de génération automatique de formulaires pour les projets Django. Il facilite la création de formulaires basés sur des modèles de classe Django, en prenant en compte le type des champs et les relations.
 
 ## Installation
-Pour installer PyForm, exécutez simplement la commande suivante :
+Pour installer DjPyForms, exécutez simplement la commande suivante :
 
 ```
-pip install pyform
+pip install DjPyForms
 ```
 
 ## Utilisation
-Après l'installation, vous pouvez utiliser PyForm directement depuis la ligne de commande de Django. Voici quelques exemples de commandes :
+Après l'installation, vous pouvez utiliser DjPyForms directement depuis la ligne de commande de Django. Voici quelques exemples de commandes :
+
+Mais avant vous devez importer DjPyForms dans votre fichier Settings.py de votre projet Django :
 
 ### Générer un Formulaire pour la Partie Publique
 Pour générer un formulaire basé sur un modèle Django pour la partie publique :
